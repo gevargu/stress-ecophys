@@ -1,13 +1,29 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Research
   portfolio_item :
+    # portfolio item loop
+    - name : Bottol Label
+      image : images/portfolio/portfolio-4.jpg
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["Climate Change"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
     # portfolio item loop
     - name : Tag Design
       image : images/portfolio/portfolio-1.jpg
       image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
+      categories : ["Community Ecology"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "https://themefisher.com"
+
+    # portfolio item loop
+    - name : Tag Design
+      image : images/portfolio/portfolio-1.jpg
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["Eco-physiology"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "https://themefisher.com"
       
@@ -15,7 +31,7 @@ portfolio:
     - name : Sound system
       image : images/portfolio/portfolio-2.jpg
       image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
+      categories : ["Ecosystem Ecology"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : ""
       
@@ -23,15 +39,7 @@ portfolio:
     - name : Clock Product
       image : images/portfolio/portfolio-3.jpg
       image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
+      categories : ["modeling"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
